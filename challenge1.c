@@ -4,19 +4,22 @@
 int main()
 {
     int age;
-    char first_name[50];
-    char last_name[50];
-    char country[50];
-    printf("enter your first name?\n");
-    scanf("%s",first_name);
-    printf("enter your last name ?\n");
-    scanf("%s",last_name);
-    printf("enter your age ?\n");
+    char nome[50];
+    char Prénom[50];
+    char adress_email[100];
+    char sexe[50];
+    printf("enter your name ?\n"); 
+    scanf("%s",nome);
+    printf("enter your prénom ?\n");
+    scanf("%s",prénom);
+    printf("enter your adress email ?\n");
+    scanf("%s",adress_email);
+    printf("enter your age ?\n);
     scanf("%d",&age);
-    printf("enter your country city ?\n");
-    scanf("%s",country);
-    printf("your first name is %s\nyour last name is %s\nyour age is %d\nyour country city is %s ",first_name,last_name,age,country);
-    
+    printf("enter your sexe (H) or (F) ?\n);
+    scanf("%c",&sexe);
+    printf("your name is %s\nyour prénom is %s\nyour adress email is %s\nyour age is %d \nyour sexe is %c\n");
+
 
     return 0;
 }
