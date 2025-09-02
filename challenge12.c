@@ -4,17 +4,15 @@
 int main()
 {
     int number;
-    int unit,tens,hundreds,thousands;
-    int inverse;
+    int d1,d2,d3,d4;
 
     printf("Enter a four-digit number: ");
     scanf("%d", &number);
-    unit = number % 10;              
-    tens = (number / 10) % 10;        
-    hundreds = (number / 100) % 10;   
-    thousands = number / 1000; 
-    inverse = unit * 1000 + tens * 100 + hundreds * 10 + thousands;
-    printf("le inverse de number is %d",inverse);
+    d1 = number % 10;              
+    d2 = (number / 10) % 10;        
+    d3 = (number / 100) % 10;   
+    d4 = number / 1000; 
+    printf("le inverse de number is %d%d%d%d",d1,d2,d3,d4);
 
 
     return 0;
