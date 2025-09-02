@@ -4,16 +4,17 @@
 
 int main()
 {
-    float x1, x2, x3;
+    float a,b,c;
     float moyenne_geo;
-    printf("enter valure x1?\n");
-    scanf("%f",&x1);
-    printf("enter valure x2?\n");
-    scanf("%f",&x2);
-    printf("enter valure x3?\n");
-    scanf("%f",&x3);
-    moyenne_geo=pow((x1*x2*x3),1.0/3.0);
-    printf("le moyen Géométrique est %.f",moyenne_geo);
+    printf("enter valure a?\n");
+    scanf("%f",&a);
+    printf("enter valure b?\n");
+    scanf("%f",&b);
+    printf("enter valure c?\n");
+    scanf("%f",&c);
+    moyenne_geo=pow(a*b*c,1.0/3.0);
+    printf("le moyenne est : %.2f ",moyenne_geo);
+    
 
     return 0;
 }
