@@ -3,25 +3,16 @@
 
 int main()
 {
-    float n1,n2,n3; 
-    float c1,c2,c3;
+    float a,b,c;
     float moyen;
-    printf("Entrez la premiere note : ");
-    scanf("%f", &n1);
-    printf("Entrez son coefficient : ");
-    scanf("%f", &c1);
-
-    printf("Entrez la deuxieme note : ");
-    scanf("%f", &n2);
-    printf("Entrez son coefficient : ");
-    scanf("%f", &c2);
-
-    printf("Entrez la troisieme note : ");
-    scanf("%f", &n3);
-    printf("Entrez son coefficient : ");
-    scanf("%f", &c3);
-    moyen=(n1*c1+n2*c2+n3*c3)/(c1+c2+c3);
-    printf("le moyen de la notes est %.f",moyen);
+    printf("enter nombre one ?\n");
+    scanf("%d",&a);
+    printf("enter nombre two ?\n);
+    scanf("%d",&b);
+    printf("enter nombre three?\n");
+    scanf("%d",&c);
+    Moyenne = (a×2 + b×3 + c×5) / (2+3+5);
+    printf("les moyen est : %.f ",Moyenne);
 
     return 0;
 }
