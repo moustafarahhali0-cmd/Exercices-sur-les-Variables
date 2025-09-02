@@ -3,11 +3,11 @@
 
 int main()
 {
-    float km,yards;
+    float Km,Yards;
     printf("enter la distance kelometres?\n");
     scanf("%f",&km);
-    yards = km * 1093.61;
-    printf("%.f km== %.f yards",km,yards);
+    Yards = Km × 1093.61;
+    printf("%.f Km = %.f Yards",Km,Yards);
 
 
     return 0;
